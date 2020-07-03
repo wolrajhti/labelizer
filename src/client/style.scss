@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+canvas {
+  display: block;
+}
+
+.circle {
+  position: fixed;
+  background-color: transparent;
+  fill-opacity: 0.5;
+  user-select: none;
+  pointer-events: none;
+  stroke: black;
+  stroke-width: 3px;
+  fill: red;
+}
